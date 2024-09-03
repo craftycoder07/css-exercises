@@ -12,6 +12,36 @@ img {
   font-weight: 900;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+}
+
+.info-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 52px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+}
+
+.text {
+  text-align: center;
+  text-wrap: wrap;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
